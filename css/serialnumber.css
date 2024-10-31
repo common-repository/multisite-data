@@ -1,0 +1,68 @@
+<style>
+    form {
+        width: 580px;
+    }
+    form label {
+        width: 250px;
+    }
+    form label.error, form input.submit {
+        margin-left: 253px;
+    }
+    #cemail-error{
+    display: none !important;
+}
+input.error{
+    border:#dc3232 solid 1px !important;
+    background: url(../images/error.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: 0 0 2px rgba(204,0,0,.8);
+    background-color: #FFFFFF !important;
+
+}
+
+label.error
+{
+    display: none !important; 
+}
+
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0;
+
+}
+
+
+ #myins
+ {
+    height: 200px;
+    overflow-y: auto;  overflow-x: hidden;
+ }
+
+
+
+
+body:not(.page-template-page-download-archive) article:not(.snippet){
+  background:transparent ;
+}
+  .loadingclass{
+  
+    
+        margin-left: 30%;
+    padding: 20px;
+   
+    
+    width: auto;
+    display: block;
+    width: 50%;
+    background: rgba(160, 211, 232, 0.75);
+    color: #555555;
+    
+  }
+
